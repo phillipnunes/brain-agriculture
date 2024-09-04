@@ -12,7 +12,7 @@ const AddProducer: React.FC = () => {
 
   const handleAddProducer = (producer: Producer) => {
     dispatch(addProducer(producer));
-    navigate('/');
+    navigate('/produtores');
   };
 
   return (

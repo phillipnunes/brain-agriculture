@@ -18,7 +18,7 @@ const EditProducer: React.FC = () => {
 
   const handleUpdateProducer = (updatedProducer: Producer) => {
     dispatch(updateProducer(updatedProducer));
-    navigate('/');
+    navigate('/produtores');
   };
 
   if (!producer) return <p>Produtor não encontrado</p>;
